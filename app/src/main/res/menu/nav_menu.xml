@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_dashboard"
+            android:icon="@drawable/ic_dashboard"
+            android:title="@string/dashboard" />
+        <item
+            android:id="@+id/nav_learners"
+            android:icon="@drawable/ic_learners"
+            android:title="@string/learners" />
+        <item
+            android:id="@+id/nav_employees"
+            android:icon="@drawable/ic_employee"
+            android:title="@string/employees" />
+        <item
+            android:id="@+id/nav_attendance"
+            android:icon="@drawable/ic_attendance"
+            android:title="@string/attendance" />
+        <item
+            android:id="@+id/nav_incidents"
+            android:icon="@drawable/ic_incident"
+            android:title="@string/incidents" />
+        <item
+            android:id="@+id/nav_visitors"
+            android:icon="@drawable/ic_visitor"
+            android:title="@string/visitors" />
+        <item
+            android:id="@+id/nav_reports"
+            android:icon="@drawable/ic_reports"
+            android:title="@string/reports" />
+    </group>
+
+    <item android:title="@string/settings">
+        <menu>
+            <item
+                android:id="@+id/nav_server_config"
+                android:icon="@drawable/ic_settings"
+                android:title="Server Configuration" />
+            <item
+                android:id="@+id/nav_settings"
+                android:icon="@drawable/ic_settings"
+                android:title="@string/settings" />
+            <item
+                android:id="@+id/nav_profile"
+                android:icon="@drawable/ic_profile"
+                android:title="@string/profile" />
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/ic_logout"
+                android:title="@string/logout" />
+        </menu>
+    </item>
+</menu>

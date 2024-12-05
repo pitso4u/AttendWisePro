@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App bar styles -->
+    <style name="Theme.AttendWisePro.AppBarOverlay" parent="ThemeOverlay.MaterialComponents.Dark.ActionBar" />
+    <style name="Theme.AttendWisePro.PopupOverlay" parent="ThemeOverlay.MaterialComponents.Light" />
+    
+    <!-- Quick Action Card Style -->
+    <style name="QuickActionCard">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_columnWeight">1</item>
+        <item name="android:layout_margin">4dp</item>
+        <item name="cardCornerRadius">8dp</item>
+        <item name="cardElevation">2dp</item>
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+        <item name="android:foreground">?attr/selectableItemBackground</item>
+    </style>
+
+    <!-- Quick Action Layout Style -->
+    <style name="QuickActionLayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">16dp</item>
+    </style>
+
+    <!-- Quick Action Icon Style -->
+    <style name="QuickActionIcon">
+        <item name="android:layout_width">48dp</item>
+        <item name="android:layout_height">48dp</item>
+        <item name="android:layout_marginBottom">8dp</item>
+        <item name="tint">?attr/colorPrimary</item>
+    </style>
+
+    <!-- Quick Action Text Style -->
+    <style name="QuickActionText">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textAppearance">?attr/textAppearanceBody2</item>
+    </style>
+</resources>

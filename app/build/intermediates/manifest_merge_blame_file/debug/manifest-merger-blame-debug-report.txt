@@ -1,0 +1,360 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.attendwisepro"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="34" />
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\sam\CascadeProjects\windsurf-project\android\app\src\main\AndroidManifest.xml:5:5-67
+11-->C:\Users\sam\CascadeProjects\windsurf-project\android\app\src\main\AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->C:\Users\sam\CascadeProjects\windsurf-project\android\app\src\main\AndroidManifest.xml:6:5-79
+12-->C:\Users\sam\CascadeProjects\windsurf-project\android\app\src\main\AndroidManifest.xml:6:22-76
+13    <uses-permission android:name="android.permission.CAMERA" />
+13-->C:\Users\sam\CascadeProjects\windsurf-project\android\app\src\main\AndroidManifest.xml:7:5-65
+13-->C:\Users\sam\CascadeProjects\windsurf-project\android\app\src\main\AndroidManifest.xml:7:22-62
+14    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+14-->C:\Users\sam\CascadeProjects\windsurf-project\android\app\src\main\AndroidManifest.xml:8:5-76
+14-->C:\Users\sam\CascadeProjects\windsurf-project\android\app\src\main\AndroidManifest.xml:8:22-73
+15    <uses-permission android:name="android.permission.CHANGE_WIFI_MULTICAST_STATE" />
+15-->C:\Users\sam\CascadeProjects\windsurf-project\android\app\src\main\AndroidManifest.xml:9:5-86
+15-->C:\Users\sam\CascadeProjects\windsurf-project\android\app\src\main\AndroidManifest.xml:9:22-83
+16
+17    <uses-feature android:name="android.hardware.camera" />
+17-->C:\Users\sam\CascadeProjects\windsurf-project\android\app\src\main\AndroidManifest.xml:10:5-60
+17-->C:\Users\sam\CascadeProjects\windsurf-project\android\app\src\main\AndroidManifest.xml:10:19-57
+18
+19    <permission
+19-->[androidx.core:core:1.12.0] C:\Users\sam\.gradle\caches\transforms-4\17a78fa759c00c65b7144d7898c3a958\transformed\core-1.12.0\AndroidManifest.xml:22:5-24:47
+20        android:name="com.attendwisepro.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+20-->[androidx.core:core:1.12.0] C:\Users\sam\.gradle\caches\transforms-4\17a78fa759c00c65b7144d7898c3a958\transformed\core-1.12.0\AndroidManifest.xml:23:9-81
+21        android:protectionLevel="signature" />
+21-->[androidx.core:core:1.12.0] C:\Users\sam\.gradle\caches\transforms-4\17a78fa759c00c65b7144d7898c3a958\transformed\core-1.12.0\AndroidManifest.xml:24:9-44
+22
+23    <uses-permission android:name="com.attendwisepro.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+23-->[androidx.core:core:1.12.0] C:\Users\sam\.gradle\caches\transforms-4\17a78fa759c00c65b7144d7898c3a958\transformed\core-1.12.0\AndroidManifest.xml:26:5-97
+23-->[androidx.core:core:1.12.0] C:\Users\sam\.gradle\caches\transforms-4\17a78fa759c00c65b7144d7898c3a958\transformed\core-1.12.0\AndroidManifest.xml:26:22-94
+24
+25    <application
+25-->C:\Users\sam\CascadeProjects\windsurf-project\android\app\src\main\AndroidManifest.xml:12:5-113:19
+26        android:allowBackup="true"
+26-->C:\Users\sam\CascadeProjects\windsurf-project\android\app\src\main\AndroidManifest.xml:13:9-35
+27        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+27-->[androidx.core:core:1.12.0] C:\Users\sam\.gradle\caches\transforms-4\17a78fa759c00c65b7144d7898c3a958\transformed\core-1.12.0\AndroidManifest.xml:28:18-86
+28        android:debuggable="true"
+29        android:enableOnBackInvokedCallback="true"
+29-->C:\Users\sam\CascadeProjects\windsurf-project\android\app\src\main\AndroidManifest.xml:21:9-51
+30        android:extractNativeLibs="true"
+31        android:icon="@drawable/ic_launcher_foreground"
+31-->C:\Users\sam\CascadeProjects\windsurf-project\android\app\src\main\AndroidManifest.xml:14:9-56
+32        android:label="@string/app_name"
+32-->C:\Users\sam\CascadeProjects\windsurf-project\android\app\src\main\AndroidManifest.xml:15:9-41
+33        android:networkSecurityConfig="@xml/network_security_config"
+33-->C:\Users\sam\CascadeProjects\windsurf-project\android\app\src\main\AndroidManifest.xml:20:9-69
+34        android:roundIcon="@drawable/ic_launcher_foreground"
+34-->C:\Users\sam\CascadeProjects\windsurf-project\android\app\src\main\AndroidManifest.xml:16:9-61
+35        android:supportsRtl="true"
+35-->C:\Users\sam\CascadeProjects\windsurf-project\android\app\src\main\AndroidManifest.xml:17:9-35
+36        android:theme="@style/Theme.AttendWisePro"
+36-->C:\Users\sam\CascadeProjects\windsurf-project\android\app\src\main\AndroidManifest.xml:18:9-51
+37        android:usesCleartextTraffic="true" >
+37-->C:\Users\sam\CascadeProjects\windsurf-project\android\app\src\main\AndroidManifest.xml:19:9-44
+38        <activity
+38-->C:\Users\sam\CascadeProjects\windsurf-project\android\app\src\main\AndroidManifest.xml:23:9-31:20
+39            android:name="com.attendwisepro.LoginActivity"
+39-->C:\Users\sam\CascadeProjects\windsurf-project\android\app\src\main\AndroidManifest.xml:24:13-42
+40            android:exported="true"
+40-->C:\Users\sam\CascadeProjects\windsurf-project\android\app\src\main\AndroidManifest.xml:25:13-36
+41            android:windowSoftInputMode="adjustResize" >
+41-->C:\Users\sam\CascadeProjects\windsurf-project\android\app\src\main\AndroidManifest.xml:26:13-55
+42            <intent-filter>
+42-->C:\Users\sam\CascadeProjects\windsurf-project\android\app\src\main\AndroidManifest.xml:27:13-30:29
+43                <action android:name="android.intent.action.MAIN" />
+43-->C:\Users\sam\CascadeProjects\windsurf-project\android\app\src\main\AndroidManifest.xml:28:17-69
+43-->C:\Users\sam\CascadeProjects\windsurf-project\android\app\src\main\AndroidManifest.xml:28:25-66
+44
+45                <category android:name="android.intent.category.LAUNCHER" />
+45-->C:\Users\sam\CascadeProjects\windsurf-project\android\app\src\main\AndroidManifest.xml:29:17-77
+45-->C:\Users\sam\CascadeProjects\windsurf-project\android\app\src\main\AndroidManifest.xml:29:27-74
+46            </intent-filter>
+47        </activity>
+48        <activity
+48-->C:\Users\sam\CascadeProjects\windsurf-project\android\app\src\main\AndroidManifest.xml:33:9-36:49
+49            android:name="com.attendwisepro.DashboardActivity"
+49-->C:\Users\sam\CascadeProjects\windsurf-project\android\app\src\main\AndroidManifest.xml:34:13-46
+50            android:exported="false"
+50-->C:\Users\sam\CascadeProjects\windsurf-project\android\app\src\main\AndroidManifest.xml:35:13-37
+51            android:label="@string/dashboard" />
+51-->C:\Users\sam\CascadeProjects\windsurf-project\android\app\src\main\AndroidManifest.xml:36:13-46
+52        <activity
+52-->C:\Users\sam\CascadeProjects\windsurf-project\android\app\src\main\AndroidManifest.xml:38:9-42:63
+53            android:name="com.attendwisepro.AddLearnerActivity"
+53-->C:\Users\sam\CascadeProjects\windsurf-project\android\app\src\main\AndroidManifest.xml:39:13-47
+54            android:exported="false"
+54-->C:\Users\sam\CascadeProjects\windsurf-project\android\app\src\main\AndroidManifest.xml:40:13-37
+55            android:label="@string/add_learner"
+55-->C:\Users\sam\CascadeProjects\windsurf-project\android\app\src\main\AndroidManifest.xml:41:13-48
+56            android:parentActivityName="com.attendwisepro.DashboardActivity" />
+56-->C:\Users\sam\CascadeProjects\windsurf-project\android\app\src\main\AndroidManifest.xml:42:13-60
+57        <activity
+57-->C:\Users\sam\CascadeProjects\windsurf-project\android\app\src\main\AndroidManifest.xml:43:9-47:63
+58            android:name="com.attendwisepro.MarkAttendanceActivity"
+58-->C:\Users\sam\CascadeProjects\windsurf-project\android\app\src\main\AndroidManifest.xml:44:13-51
+59            android:exported="false"
+59-->C:\Users\sam\CascadeProjects\windsurf-project\android\app\src\main\AndroidManifest.xml:45:13-37
+60            android:label="@string/mark_attendance"
+60-->C:\Users\sam\CascadeProjects\windsurf-project\android\app\src\main\AndroidManifest.xml:46:13-52
+61            android:parentActivityName="com.attendwisepro.DashboardActivity" />
+61-->C:\Users\sam\CascadeProjects\windsurf-project\android\app\src\main\AndroidManifest.xml:47:13-60
+62        <activity
+62-->C:\Users\sam\CascadeProjects\windsurf-project\android\app\src\main\AndroidManifest.xml:48:9-52:63
+63            android:name="com.attendwisepro.ReportsActivity"
+63-->C:\Users\sam\CascadeProjects\windsurf-project\android\app\src\main\AndroidManifest.xml:49:13-44
+64            android:exported="false"
+64-->C:\Users\sam\CascadeProjects\windsurf-project\android\app\src\main\AndroidManifest.xml:50:13-37
+65            android:label="@string/reports"
+65-->C:\Users\sam\CascadeProjects\windsurf-project\android\app\src\main\AndroidManifest.xml:51:13-44
+66            android:parentActivityName="com.attendwisepro.DashboardActivity" />
+66-->C:\Users\sam\CascadeProjects\windsurf-project\android\app\src\main\AndroidManifest.xml:52:13-60
+67        <activity
+67-->C:\Users\sam\CascadeProjects\windsurf-project\android\app\src\main\AndroidManifest.xml:53:9-56:75
+68            android:name="com.attendwisepro.QRScannerActivity"
+68-->C:\Users\sam\CascadeProjects\windsurf-project\android\app\src\main\AndroidManifest.xml:54:13-46
+69            android:exported="false"
+69-->C:\Users\sam\CascadeProjects\windsurf-project\android\app\src\main\AndroidManifest.xml:55:13-37
+70            android:theme="@style/Theme.MaterialComponents.NoActionBar" />
+70-->C:\Users\sam\CascadeProjects\windsurf-project\android\app\src\main\AndroidManifest.xml:56:13-72
+71        <activity
+71-->C:\Users\sam\CascadeProjects\windsurf-project\android\app\src\main\AndroidManifest.xml:57:9-60:48
+72            android:name="com.attendwisepro.LearnersActivity"
+72-->C:\Users\sam\CascadeProjects\windsurf-project\android\app\src\main\AndroidManifest.xml:58:13-45
+73            android:exported="false"
+73-->C:\Users\sam\CascadeProjects\windsurf-project\android\app\src\main\AndroidManifest.xml:59:13-37
+74            android:label="@string/learners" />
+74-->C:\Users\sam\CascadeProjects\windsurf-project\android\app\src\main\AndroidManifest.xml:60:13-45
+75        <activity
+75-->C:\Users\sam\CascadeProjects\windsurf-project\android\app\src\main\AndroidManifest.xml:61:9-64:58
+76            android:name="com.attendwisepro.LearnerAttendanceActivity"
+76-->C:\Users\sam\CascadeProjects\windsurf-project\android\app\src\main\AndroidManifest.xml:62:13-54
+77            android:exported="false"
+77-->C:\Users\sam\CascadeProjects\windsurf-project\android\app\src\main\AndroidManifest.xml:63:13-37
+78            android:label="@string/attendance_history" />
+78-->C:\Users\sam\CascadeProjects\windsurf-project\android\app\src\main\AndroidManifest.xml:64:13-55
+79        <activity
+79-->C:\Users\sam\CascadeProjects\windsurf-project\android\app\src\main\AndroidManifest.xml:66:9-68:40
+80            android:name="com.attendwisepro.MainActivity"
+80-->C:\Users\sam\CascadeProjects\windsurf-project\android\app\src\main\AndroidManifest.xml:67:13-41
+81            android:exported="false" />
+81-->C:\Users\sam\CascadeProjects\windsurf-project\android\app\src\main\AndroidManifest.xml:68:13-37
+82        <activity
+82-->C:\Users\sam\CascadeProjects\windsurf-project\android\app\src\main\AndroidManifest.xml:70:9-73:49
+83            android:name="com.attendwisepro.EmployeesActivity"
+83-->C:\Users\sam\CascadeProjects\windsurf-project\android\app\src\main\AndroidManifest.xml:71:13-46
+84            android:exported="false"
+84-->C:\Users\sam\CascadeProjects\windsurf-project\android\app\src\main\AndroidManifest.xml:72:13-37
+85            android:label="@string/employees" />
+85-->C:\Users\sam\CascadeProjects\windsurf-project\android\app\src\main\AndroidManifest.xml:73:13-46
+86        <activity
+86-->C:\Users\sam\CascadeProjects\windsurf-project\android\app\src\main\AndroidManifest.xml:75:9-78:49
+87            android:name="com.attendwisepro.IncidentsActivity"
+87-->C:\Users\sam\CascadeProjects\windsurf-project\android\app\src\main\AndroidManifest.xml:76:13-46
+88            android:exported="false"
+88-->C:\Users\sam\CascadeProjects\windsurf-project\android\app\src\main\AndroidManifest.xml:77:13-37
+89            android:label="@string/incidents" />
+89-->C:\Users\sam\CascadeProjects\windsurf-project\android\app\src\main\AndroidManifest.xml:78:13-46
+90        <activity
+90-->C:\Users\sam\CascadeProjects\windsurf-project\android\app\src\main\AndroidManifest.xml:80:9-83:48
+91            android:name="com.attendwisepro.VisitorsActivity"
+91-->C:\Users\sam\CascadeProjects\windsurf-project\android\app\src\main\AndroidManifest.xml:81:13-45
+92            android:exported="false"
+92-->C:\Users\sam\CascadeProjects\windsurf-project\android\app\src\main\AndroidManifest.xml:82:13-37
+93            android:label="@string/visitors" />
+93-->C:\Users\sam\CascadeProjects\windsurf-project\android\app\src\main\AndroidManifest.xml:83:13-45
+94        <activity
+94-->C:\Users\sam\CascadeProjects\windsurf-project\android\app\src\main\AndroidManifest.xml:85:9-88:47
+95            android:name="com.attendwisepro.ProfileActivity"
+95-->C:\Users\sam\CascadeProjects\windsurf-project\android\app\src\main\AndroidManifest.xml:86:13-44
+96            android:exported="false"
+96-->C:\Users\sam\CascadeProjects\windsurf-project\android\app\src\main\AndroidManifest.xml:87:13-37
+97            android:label="@string/profile" />
+97-->C:\Users\sam\CascadeProjects\windsurf-project\android\app\src\main\AndroidManifest.xml:88:13-44
+98        <activity
+98-->C:\Users\sam\CascadeProjects\windsurf-project\android\app\src\main\AndroidManifest.xml:90:9-94:63
+99            android:name="com.attendwisepro.SettingsActivity"
+99-->C:\Users\sam\CascadeProjects\windsurf-project\android\app\src\main\AndroidManifest.xml:91:13-45
+100            android:exported="false"
+100-->C:\Users\sam\CascadeProjects\windsurf-project\android\app\src\main\AndroidManifest.xml:92:13-37
+101            android:label="@string/settings"
+101-->C:\Users\sam\CascadeProjects\windsurf-project\android\app\src\main\AndroidManifest.xml:93:13-45
+102            android:parentActivityName="com.attendwisepro.DashboardActivity" />
+102-->C:\Users\sam\CascadeProjects\windsurf-project\android\app\src\main\AndroidManifest.xml:94:13-60
+103        <activity
+103-->C:\Users\sam\CascadeProjects\windsurf-project\android\app\src\main\AndroidManifest.xml:96:9-100:63
+104            android:name="com.attendwisepro.AddEmployeeActivity"
+104-->C:\Users\sam\CascadeProjects\windsurf-project\android\app\src\main\AndroidManifest.xml:97:13-48
+105            android:exported="false"
+105-->C:\Users\sam\CascadeProjects\windsurf-project\android\app\src\main\AndroidManifest.xml:98:13-37
+106            android:label="@string/add_employee"
+106-->C:\Users\sam\CascadeProjects\windsurf-project\android\app\src\main\AndroidManifest.xml:99:13-49
+107            android:parentActivityName="com.attendwisepro.EmployeesActivity" />
+107-->C:\Users\sam\CascadeProjects\windsurf-project\android\app\src\main\AndroidManifest.xml:100:13-60
+108        <activity
+108-->C:\Users\sam\CascadeProjects\windsurf-project\android\app\src\main\AndroidManifest.xml:102:9-106:63
+109            android:name="com.attendwisepro.AddIncidentActivity"
+109-->C:\Users\sam\CascadeProjects\windsurf-project\android\app\src\main\AndroidManifest.xml:103:13-48
+110            android:exported="false"
+110-->C:\Users\sam\CascadeProjects\windsurf-project\android\app\src\main\AndroidManifest.xml:104:13-37
+111            android:label="@string/add_incident"
+111-->C:\Users\sam\CascadeProjects\windsurf-project\android\app\src\main\AndroidManifest.xml:105:13-49
+112            android:parentActivityName="com.attendwisepro.IncidentsActivity" />
+112-->C:\Users\sam\CascadeProjects\windsurf-project\android\app\src\main\AndroidManifest.xml:106:13-60
+113        <activity
+113-->C:\Users\sam\CascadeProjects\windsurf-project\android\app\src\main\AndroidManifest.xml:108:9-111:81
+114            android:name="com.attendwisepro.AddVisitorActivity"
+114-->C:\Users\sam\CascadeProjects\windsurf-project\android\app\src\main\AndroidManifest.xml:109:13-47
+115            android:exported="false"
+115-->C:\Users\sam\CascadeProjects\windsurf-project\android\app\src\main\AndroidManifest.xml:110:13-37
+116            android:theme="@style/Theme.MaterialComponents.Light.NoActionBar" />
+116-->C:\Users\sam\CascadeProjects\windsurf-project\android\app\src\main\AndroidManifest.xml:111:13-78
+117
+118        <service
+118-->[androidx.camera:camera-camera2:1.2.3] C:\Users\sam\.gradle\caches\transforms-4\9ee2142afdefecd25510c587e9b7526d\transformed\jetified-camera-camera2-1.2.3\AndroidManifest.xml:24:9-33:19
+119            android:name="androidx.camera.core.impl.MetadataHolderService"
+119-->[androidx.camera:camera-camera2:1.2.3] C:\Users\sam\.gradle\caches\transforms-4\9ee2142afdefecd25510c587e9b7526d\transformed\jetified-camera-camera2-1.2.3\AndroidManifest.xml:25:13-75
+120            android:enabled="false"
+120-->[androidx.camera:camera-camera2:1.2.3] C:\Users\sam\.gradle\caches\transforms-4\9ee2142afdefecd25510c587e9b7526d\transformed\jetified-camera-camera2-1.2.3\AndroidManifest.xml:26:13-36
+121            android:exported="false" >
+121-->[androidx.camera:camera-camera2:1.2.3] C:\Users\sam\.gradle\caches\transforms-4\9ee2142afdefecd25510c587e9b7526d\transformed\jetified-camera-camera2-1.2.3\AndroidManifest.xml:27:13-37
+122            <meta-data
+122-->[androidx.camera:camera-camera2:1.2.3] C:\Users\sam\.gradle\caches\transforms-4\9ee2142afdefecd25510c587e9b7526d\transformed\jetified-camera-camera2-1.2.3\AndroidManifest.xml:30:13-32:89
+123                android:name="androidx.camera.core.impl.MetadataHolderService.DEFAULT_CONFIG_PROVIDER"
+123-->[androidx.camera:camera-camera2:1.2.3] C:\Users\sam\.gradle\caches\transforms-4\9ee2142afdefecd25510c587e9b7526d\transformed\jetified-camera-camera2-1.2.3\AndroidManifest.xml:31:17-103
+124                android:value="androidx.camera.camera2.Camera2Config$DefaultProvider" />
+124-->[androidx.camera:camera-camera2:1.2.3] C:\Users\sam\.gradle\caches\transforms-4\9ee2142afdefecd25510c587e9b7526d\transformed\jetified-camera-camera2-1.2.3\AndroidManifest.xml:32:17-86
+125        </service>
+126        <service
+126-->[com.google.android.gms:play-services-mlkit-barcode-scanning:18.2.0] C:\Users\sam\.gradle\caches\transforms-4\3567cfe8806632e0461c3ddb6d0acedc\transformed\jetified-play-services-mlkit-barcode-scanning-18.2.0\AndroidManifest.xml:9:9-15:19
+127            android:name="com.google.mlkit.common.internal.MlKitComponentDiscoveryService"
+127-->[com.google.android.gms:play-services-mlkit-barcode-scanning:18.2.0] C:\Users\sam\.gradle\caches\transforms-4\3567cfe8806632e0461c3ddb6d0acedc\transformed\jetified-play-services-mlkit-barcode-scanning-18.2.0\AndroidManifest.xml:10:13-91
+128            android:directBootAware="true"
+128-->[com.google.mlkit:common:18.7.0] C:\Users\sam\.gradle\caches\transforms-4\ae87d177340363e1c07cec88ba3cc7e1\transformed\jetified-common-18.7.0\AndroidManifest.xml:17:13-43
+129            android:exported="false" >
+129-->[com.google.android.gms:play-services-mlkit-barcode-scanning:18.2.0] C:\Users\sam\.gradle\caches\transforms-4\3567cfe8806632e0461c3ddb6d0acedc\transformed\jetified-play-services-mlkit-barcode-scanning-18.2.0\AndroidManifest.xml:11:13-37
+130            <meta-data
+130-->[com.google.android.gms:play-services-mlkit-barcode-scanning:18.2.0] C:\Users\sam\.gradle\caches\transforms-4\3567cfe8806632e0461c3ddb6d0acedc\transformed\jetified-play-services-mlkit-barcode-scanning-18.2.0\AndroidManifest.xml:12:13-14:85
+131                android:name="com.google.firebase.components:com.google.mlkit.vision.barcode.internal.BarcodeRegistrar"
+131-->[com.google.android.gms:play-services-mlkit-barcode-scanning:18.2.0] C:\Users\sam\.gradle\caches\transforms-4\3567cfe8806632e0461c3ddb6d0acedc\transformed\jetified-play-services-mlkit-barcode-scanning-18.2.0\AndroidManifest.xml:13:17-120
+132                android:value="com.google.firebase.components.ComponentRegistrar" />
+132-->[com.google.android.gms:play-services-mlkit-barcode-scanning:18.2.0] C:\Users\sam\.gradle\caches\transforms-4\3567cfe8806632e0461c3ddb6d0acedc\transformed\jetified-play-services-mlkit-barcode-scanning-18.2.0\AndroidManifest.xml:14:17-82
+133            <meta-data
+133-->[com.google.mlkit:vision-common:17.3.0] C:\Users\sam\.gradle\caches\transforms-4\a2f81248d9ec5dabad8388277db49dd3\transformed\jetified-vision-common-17.3.0\AndroidManifest.xml:12:13-14:85
+134                android:name="com.google.firebase.components:com.google.mlkit.vision.common.internal.VisionCommonRegistrar"
+134-->[com.google.mlkit:vision-common:17.3.0] C:\Users\sam\.gradle\caches\transforms-4\a2f81248d9ec5dabad8388277db49dd3\transformed\jetified-vision-common-17.3.0\AndroidManifest.xml:13:17-124
+135                android:value="com.google.firebase.components.ComponentRegistrar" />
+135-->[com.google.mlkit:vision-common:17.3.0] C:\Users\sam\.gradle\caches\transforms-4\a2f81248d9ec5dabad8388277db49dd3\transformed\jetified-vision-common-17.3.0\AndroidManifest.xml:14:17-82
+136            <meta-data
+136-->[com.google.mlkit:common:18.7.0] C:\Users\sam\.gradle\caches\transforms-4\ae87d177340363e1c07cec88ba3cc7e1\transformed\jetified-common-18.7.0\AndroidManifest.xml:20:13-22:85
+137                android:name="com.google.firebase.components:com.google.mlkit.common.internal.CommonComponentRegistrar"
+137-->[com.google.mlkit:common:18.7.0] C:\Users\sam\.gradle\caches\transforms-4\ae87d177340363e1c07cec88ba3cc7e1\transformed\jetified-common-18.7.0\AndroidManifest.xml:21:17-120
+138                android:value="com.google.firebase.components.ComponentRegistrar" />
+138-->[com.google.mlkit:common:18.7.0] C:\Users\sam\.gradle\caches\transforms-4\ae87d177340363e1c07cec88ba3cc7e1\transformed\jetified-common-18.7.0\AndroidManifest.xml:22:17-82
+139        </service>
+140
+141        <provider
+141-->[com.google.mlkit:common:18.7.0] C:\Users\sam\.gradle\caches\transforms-4\ae87d177340363e1c07cec88ba3cc7e1\transformed\jetified-common-18.7.0\AndroidManifest.xml:9:9-13:38
+142            android:name="com.google.mlkit.common.internal.MlKitInitProvider"
+142-->[com.google.mlkit:common:18.7.0] C:\Users\sam\.gradle\caches\transforms-4\ae87d177340363e1c07cec88ba3cc7e1\transformed\jetified-common-18.7.0\AndroidManifest.xml:10:13-78
+143            android:authorities="com.attendwisepro.mlkitinitprovider"
+143-->[com.google.mlkit:common:18.7.0] C:\Users\sam\.gradle\caches\transforms-4\ae87d177340363e1c07cec88ba3cc7e1\transformed\jetified-common-18.7.0\AndroidManifest.xml:11:13-69
+144            android:exported="false"
+144-->[com.google.mlkit:common:18.7.0] C:\Users\sam\.gradle\caches\transforms-4\ae87d177340363e1c07cec88ba3cc7e1\transformed\jetified-common-18.7.0\AndroidManifest.xml:12:13-37
+145            android:initOrder="99" />
+145-->[com.google.mlkit:common:18.7.0] C:\Users\sam\.gradle\caches\transforms-4\ae87d177340363e1c07cec88ba3cc7e1\transformed\jetified-common-18.7.0\AndroidManifest.xml:13:13-35
+146
+147        <activity
+147-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\sam\.gradle\caches\transforms-4\14bd83d5bed3eefeaa9502bfdb292a66\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:20:9-22:45
+148            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+148-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\sam\.gradle\caches\transforms-4\14bd83d5bed3eefeaa9502bfdb292a66\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:20:19-85
+149            android:exported="false"
+149-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\sam\.gradle\caches\transforms-4\14bd83d5bed3eefeaa9502bfdb292a66\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:22:19-43
+150            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+150-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\sam\.gradle\caches\transforms-4\14bd83d5bed3eefeaa9502bfdb292a66\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:21:19-78
+151
+152        <meta-data
+152-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\sam\.gradle\caches\transforms-4\d34130f93eb30219ed3357189dd7dd15\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:21:9-23:69
+153            android:name="com.google.android.gms.version"
+153-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\sam\.gradle\caches\transforms-4\d34130f93eb30219ed3357189dd7dd15\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:22:13-58
+154            android:value="@integer/google_play_services_version" />
+154-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\sam\.gradle\caches\transforms-4\d34130f93eb30219ed3357189dd7dd15\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:23:13-66
+155
+156        <provider
+156-->[androidx.emoji2:emoji2:1.2.0] C:\Users\sam\.gradle\caches\transforms-4\eba360f5ec7a9c841218e587f8b7ce98\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+157            android:name="androidx.startup.InitializationProvider"
+157-->[androidx.emoji2:emoji2:1.2.0] C:\Users\sam\.gradle\caches\transforms-4\eba360f5ec7a9c841218e587f8b7ce98\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:25:13-67
+158            android:authorities="com.attendwisepro.androidx-startup"
+158-->[androidx.emoji2:emoji2:1.2.0] C:\Users\sam\.gradle\caches\transforms-4\eba360f5ec7a9c841218e587f8b7ce98\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:26:13-68
+159            android:exported="false" >
+159-->[androidx.emoji2:emoji2:1.2.0] C:\Users\sam\.gradle\caches\transforms-4\eba360f5ec7a9c841218e587f8b7ce98\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:27:13-37
+160            <meta-data
+160-->[androidx.emoji2:emoji2:1.2.0] C:\Users\sam\.gradle\caches\transforms-4\eba360f5ec7a9c841218e587f8b7ce98\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+161                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+161-->[androidx.emoji2:emoji2:1.2.0] C:\Users\sam\.gradle\caches\transforms-4\eba360f5ec7a9c841218e587f8b7ce98\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
+162                android:value="androidx.startup" />
+162-->[androidx.emoji2:emoji2:1.2.0] C:\Users\sam\.gradle\caches\transforms-4\eba360f5ec7a9c841218e587f8b7ce98\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
+163            <meta-data
+163-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\sam\.gradle\caches\transforms-4\aa7f666a0066d08b784bddcbbaaedb82\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+164                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+164-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\sam\.gradle\caches\transforms-4\aa7f666a0066d08b784bddcbbaaedb82\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+165                android:value="androidx.startup" />
+165-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\sam\.gradle\caches\transforms-4\aa7f666a0066d08b784bddcbbaaedb82\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+166        </provider>
+167
+168        <uses-library
+168-->[androidx.window:window:1.0.0] C:\Users\sam\.gradle\caches\transforms-4\321ab82646cde568b8d5684bca535e1a\transformed\jetified-window-1.0.0\AndroidManifest.xml:25:9-27:40
+169            android:name="androidx.window.extensions"
+169-->[androidx.window:window:1.0.0] C:\Users\sam\.gradle\caches\transforms-4\321ab82646cde568b8d5684bca535e1a\transformed\jetified-window-1.0.0\AndroidManifest.xml:26:13-54
+170            android:required="false" />
+170-->[androidx.window:window:1.0.0] C:\Users\sam\.gradle\caches\transforms-4\321ab82646cde568b8d5684bca535e1a\transformed\jetified-window-1.0.0\AndroidManifest.xml:27:13-37
+171        <uses-library
+171-->[androidx.window:window:1.0.0] C:\Users\sam\.gradle\caches\transforms-4\321ab82646cde568b8d5684bca535e1a\transformed\jetified-window-1.0.0\AndroidManifest.xml:28:9-30:40
+172            android:name="androidx.window.sidecar"
+172-->[androidx.window:window:1.0.0] C:\Users\sam\.gradle\caches\transforms-4\321ab82646cde568b8d5684bca535e1a\transformed\jetified-window-1.0.0\AndroidManifest.xml:29:13-51
+173            android:required="false" />
+173-->[androidx.window:window:1.0.0] C:\Users\sam\.gradle\caches\transforms-4\321ab82646cde568b8d5684bca535e1a\transformed\jetified-window-1.0.0\AndroidManifest.xml:30:13-37
+174
+175        <service
+175-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\sam\.gradle\caches\transforms-4\c6e45f6c25d85baae99330484e2a838b\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:29:9-35:19
+176            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+176-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\sam\.gradle\caches\transforms-4\c6e45f6c25d85baae99330484e2a838b\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:30:13-103
+177            android:exported="false" >
+177-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\sam\.gradle\caches\transforms-4\c6e45f6c25d85baae99330484e2a838b\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:31:13-37
+178            <meta-data
+178-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\sam\.gradle\caches\transforms-4\c6e45f6c25d85baae99330484e2a838b\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:32:13-34:39
+179                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+179-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\sam\.gradle\caches\transforms-4\c6e45f6c25d85baae99330484e2a838b\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:33:17-94
+180                android:value="cct" />
+180-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\sam\.gradle\caches\transforms-4\c6e45f6c25d85baae99330484e2a838b\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:34:17-36
+181        </service>
+182        <service
+182-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\sam\.gradle\caches\transforms-4\79b07caaee3a6da397adee29a251b6ef\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:26:9-30:19
+183            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+183-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\sam\.gradle\caches\transforms-4\79b07caaee3a6da397adee29a251b6ef\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:27:13-117
+184            android:exported="false"
+184-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\sam\.gradle\caches\transforms-4\79b07caaee3a6da397adee29a251b6ef\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:28:13-37
+185            android:permission="android.permission.BIND_JOB_SERVICE" >
+185-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\sam\.gradle\caches\transforms-4\79b07caaee3a6da397adee29a251b6ef\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:29:13-69
+186        </service>
+187
+188        <receiver
+188-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\sam\.gradle\caches\transforms-4\79b07caaee3a6da397adee29a251b6ef\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:32:9-34:40
+189            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+189-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\sam\.gradle\caches\transforms-4\79b07caaee3a6da397adee29a251b6ef\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:33:13-132
+190            android:exported="false" />
+190-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\sam\.gradle\caches\transforms-4\79b07caaee3a6da397adee29a251b6ef\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:34:13-37
+191    </application>
+192
+193</manifest>

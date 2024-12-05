@@ -1,0 +1,134 @@
+[
+    {
+        "merged": "C:\\Users\\sam\\.gradle\\daemon\\8.7\\com.attendwisepro.app-mergeDebugResources-44:\\layout\\activity_reports.xml",
+        "source": "C:\\Users\\sam\\.gradle\\daemon\\8.7\\com.attendwisepro.app-main-47:\\layout\\activity_reports.xml"
+    },
+    {
+        "merged": "C:\\Users\\sam\\.gradle\\daemon\\8.7\\com.attendwisepro.app-mergeDebugResources-44:\\layout\\activity_attendance.xml",
+        "source": "C:\\Users\\sam\\.gradle\\daemon\\8.7\\com.attendwisepro.app-main-47:\\layout\\activity_attendance.xml"
+    },
+    {
+        "merged": "C:\\Users\\sam\\.gradle\\daemon\\8.7\\com.attendwisepro.app-mergeDebugResources-44:\\layout\\item_dropdown.xml",
+        "source": "C:\\Users\\sam\\.gradle\\daemon\\8.7\\com.attendwisepro.app-main-47:\\layout\\item_dropdown.xml"
+    },
+    {
+        "merged": "C:\\Users\\sam\\.gradle\\daemon\\8.7\\com.attendwisepro.app-mergeDebugResources-44:\\layout\\activity_employees.xml",
+        "source": "C:\\Users\\sam\\.gradle\\daemon\\8.7\\com.attendwisepro.app-main-47:\\layout\\activity_employees.xml"
+    },
+    {
+        "merged": "C:\\Users\\sam\\.gradle\\daemon\\8.7\\com.attendwisepro.app-mergeDebugResources-44:\\layout\\item_attendance_detail.xml",
+        "source": "C:\\Users\\sam\\.gradle\\daemon\\8.7\\com.attendwisepro.app-main-47:\\layout\\item_attendance_detail.xml"
+    },
+    {
+        "merged": "com.attendwisepro.app-mergeDebugResources-44:/layout/dialog_server_config.xml",
+        "source": "com.attendwisepro.app-main-47:/layout/dialog_server_config.xml"
+    },
+    {
+        "merged": "C:\\Users\\sam\\.gradle\\daemon\\8.7\\com.attendwisepro.app-mergeDebugResources-44:\\layout\\item_employee.xml",
+        "source": "C:\\Users\\sam\\.gradle\\daemon\\8.7\\com.attendwisepro.app-main-47:\\layout\\item_employee.xml"
+    },
+    {
+        "merged": "C:\\Users\\sam\\.gradle\\daemon\\8.7\\com.attendwisepro.app-mergeDebugResources-44:\\layout\\activity_mark_attendance.xml",
+        "source": "C:\\Users\\sam\\.gradle\\daemon\\8.7\\com.attendwisepro.app-main-47:\\layout\\activity_mark_attendance.xml"
+    },
+    {
+        "merged": "C:\\Users\\sam\\.gradle\\daemon\\8.7\\com.attendwisepro.app-mergeDebugResources-44:\\layout\\activity_server_config.xml",
+        "source": "C:\\Users\\sam\\.gradle\\daemon\\8.7\\com.attendwisepro.app-main-47:\\layout\\activity_server_config.xml"
+    },
+    {
+        "merged": "C:\\Users\\sam\\.gradle\\daemon\\8.7\\com.attendwisepro.app-mergeDebugResources-44:\\layout\\activity_student_list.xml",
+        "source": "C:\\Users\\sam\\.gradle\\daemon\\8.7\\com.attendwisepro.app-main-47:\\layout\\activity_student_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\sam\\.gradle\\daemon\\8.7\\com.attendwisepro.app-mergeDebugResources-44:\\layout\\activity_learner_attendance.xml",
+        "source": "C:\\Users\\sam\\.gradle\\daemon\\8.7\\com.attendwisepro.app-main-47:\\layout\\activity_learner_attendance.xml"
+    },
+    {
+        "merged": "C:\\Users\\sam\\.gradle\\daemon\\8.7\\com.attendwisepro.app-mergeDebugResources-44:\\layout\\activity_qr_scanner.xml",
+        "source": "C:\\Users\\sam\\.gradle\\daemon\\8.7\\com.attendwisepro.app-main-47:\\layout\\activity_qr_scanner.xml"
+    },
+    {
+        "merged": "C:\\Users\\sam\\.gradle\\daemon\\8.7\\com.attendwisepro.app-mergeDebugResources-44:\\layout\\activity_add_incident.xml",
+        "source": "C:\\Users\\sam\\.gradle\\daemon\\8.7\\com.attendwisepro.app-main-47:\\layout\\activity_add_incident.xml"
+    },
+    {
+        "merged": "C:\\Users\\sam\\.gradle\\daemon\\8.7\\com.attendwisepro.app-mergeDebugResources-44:\\layout\\item_student.xml",
+        "source": "C:\\Users\\sam\\.gradle\\daemon\\8.7\\com.attendwisepro.app-main-47:\\layout\\item_student.xml"
+    },
+    {
+        "merged": "C:\\Users\\sam\\.gradle\\daemon\\8.7\\com.attendwisepro.app-mergeDebugResources-44:\\layout\\item_attendance_record.xml",
+        "source": "C:\\Users\\sam\\.gradle\\daemon\\8.7\\com.attendwisepro.app-main-47:\\layout\\item_attendance_record.xml"
+    },
+    {
+        "merged": "C:\\Users\\sam\\.gradle\\daemon\\8.7\\com.attendwisepro.app-mergeDebugResources-44:\\layout\\nav_header.xml",
+        "source": "C:\\Users\\sam\\.gradle\\daemon\\8.7\\com.attendwisepro.app-main-47:\\layout\\nav_header.xml"
+    },
+    {
+        "merged": "C:\\Users\\sam\\.gradle\\daemon\\8.7\\com.attendwisepro.app-mergeDebugResources-44:\\layout\\item_learner.xml",
+        "source": "C:\\Users\\sam\\.gradle\\daemon\\8.7\\com.attendwisepro.app-main-47:\\layout\\item_learner.xml"
+    },
+    {
+        "merged": "C:\\Users\\sam\\.gradle\\daemon\\8.7\\com.attendwisepro.app-mergeDebugResources-44:\\layout\\activity_incidents.xml",
+        "source": "C:\\Users\\sam\\.gradle\\daemon\\8.7\\com.attendwisepro.app-main-47:\\layout\\activity_incidents.xml"
+    },
+    {
+        "merged": "C:\\Users\\sam\\.gradle\\daemon\\8.7\\com.attendwisepro.app-mergeDebugResources-44:\\layout\\activity_settings.xml",
+        "source": "C:\\Users\\sam\\.gradle\\daemon\\8.7\\com.attendwisepro.app-main-47:\\layout\\activity_settings.xml"
+    },
+    {
+        "merged": "C:\\Users\\sam\\.gradle\\daemon\\8.7\\com.attendwisepro.app-mergeDebugResources-44:\\layout\\item_recent_activity.xml",
+        "source": "C:\\Users\\sam\\.gradle\\daemon\\8.7\\com.attendwisepro.app-main-47:\\layout\\item_recent_activity.xml"
+    },
+    {
+        "merged": "C:\\Users\\sam\\.gradle\\daemon\\8.7\\com.attendwisepro.app-mergeDebugResources-44:\\layout\\activity_add_employee.xml",
+        "source": "C:\\Users\\sam\\.gradle\\daemon\\8.7\\com.attendwisepro.app-main-47:\\layout\\activity_add_employee.xml"
+    },
+    {
+        "merged": "C:\\Users\\sam\\.gradle\\daemon\\8.7\\com.attendwisepro.app-mergeDebugResources-44:\\layout\\activity_dashboard.xml",
+        "source": "C:\\Users\\sam\\.gradle\\daemon\\8.7\\com.attendwisepro.app-main-47:\\layout\\activity_dashboard.xml"
+    },
+    {
+        "merged": "C:\\Users\\sam\\.gradle\\daemon\\8.7\\com.attendwisepro.app-mergeDebugResources-44:\\layout\\activity_add_learner.xml",
+        "source": "C:\\Users\\sam\\.gradle\\daemon\\8.7\\com.attendwisepro.app-main-47:\\layout\\activity_add_learner.xml"
+    },
+    {
+        "merged": "C:\\Users\\sam\\.gradle\\daemon\\8.7\\com.attendwisepro.app-mergeDebugResources-44:\\layout\\activity_learners.xml",
+        "source": "C:\\Users\\sam\\.gradle\\daemon\\8.7\\com.attendwisepro.app-main-47:\\layout\\activity_learners.xml"
+    },
+    {
+        "merged": "C:\\Users\\sam\\.gradle\\daemon\\8.7\\com.attendwisepro.app-mergeDebugResources-44:\\layout\\activity_visitors.xml",
+        "source": "C:\\Users\\sam\\.gradle\\daemon\\8.7\\com.attendwisepro.app-main-47:\\layout\\activity_visitors.xml"
+    },
+    {
+        "merged": "C:\\Users\\sam\\.gradle\\daemon\\8.7\\com.attendwisepro.app-mergeDebugResources-44:\\layout\\activity_add_visitor.xml",
+        "source": "C:\\Users\\sam\\.gradle\\daemon\\8.7\\com.attendwisepro.app-main-47:\\layout\\activity_add_visitor.xml"
+    },
+    {
+        "merged": "C:\\Users\\sam\\.gradle\\daemon\\8.7\\com.attendwisepro.app-mergeDebugResources-44:\\layout\\dialog_server_config.xml",
+        "source": "C:\\Users\\sam\\.gradle\\daemon\\8.7\\com.attendwisepro.app-main-47:\\layout\\dialog_server_config.xml"
+    },
+    {
+        "merged": "C:\\Users\\sam\\.gradle\\daemon\\8.7\\com.attendwisepro.app-mergeDebugResources-44:\\layout\\activity_profile.xml",
+        "source": "C:\\Users\\sam\\.gradle\\daemon\\8.7\\com.attendwisepro.app-main-47:\\layout\\activity_profile.xml"
+    },
+    {
+        "merged": "C:\\Users\\sam\\.gradle\\daemon\\8.7\\com.attendwisepro.app-mergeDebugResources-44:\\layout\\item_incident.xml",
+        "source": "C:\\Users\\sam\\.gradle\\daemon\\8.7\\com.attendwisepro.app-main-47:\\layout\\item_incident.xml"
+    },
+    {
+        "merged": "C:\\Users\\sam\\.gradle\\daemon\\8.7\\com.attendwisepro.app-mergeDebugResources-44:\\layout\\item_visitor.xml",
+        "source": "C:\\Users\\sam\\.gradle\\daemon\\8.7\\com.attendwisepro.app-main-47:\\layout\\item_visitor.xml"
+    },
+    {
+        "merged": "C:\\Users\\sam\\.gradle\\daemon\\8.7\\com.attendwisepro.app-mergeDebugResources-44:\\layout\\activity_login.xml",
+        "source": "C:\\Users\\sam\\.gradle\\daemon\\8.7\\com.attendwisepro.app-main-47:\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\sam\\.gradle\\daemon\\8.7\\com.attendwisepro.app-mergeDebugResources-44:\\layout\\item_attendance.xml",
+        "source": "C:\\Users\\sam\\.gradle\\daemon\\8.7\\com.attendwisepro.app-main-47:\\layout\\item_attendance.xml"
+    },
+    {
+        "merged": "C:\\Users\\sam\\.gradle\\daemon\\8.7\\com.attendwisepro.app-mergeDebugResources-44:\\layout\\activity_main.xml",
+        "source": "C:\\Users\\sam\\.gradle\\daemon\\8.7\\com.attendwisepro.app-main-47:\\layout\\activity_main.xml"
+    }
+]
