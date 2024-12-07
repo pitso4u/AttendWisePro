@@ -24,6 +24,7 @@ import com.google.android.material.textfield.TextInputEditText;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Calendar;
+import java.util.HashMap;
 import java.util.List;
 import java.util.Locale;
 import java.util.Map;
@@ -162,13 +163,18 @@ public class AttendanceActivity extends AppCompatActivity {
     }
 
     private void submitAttendance() {
-        Map<String, Boolean> attendanceMap = attendanceAdapter.getAttendanceMap();
+        Map<Integer, Boolean> attendanceMap = attendanceAdapter.getAttendanceMap();
+        Map<String, Boolean> stringAttendanceMap = new HashMap<>();
+        for (Map.Entry<Integer, Boolean> entry : attendanceMap.entrySet()) {
+            stringAttendanceMap.put(entry.getKey().toString(), entry.getValue());
+        }
+        
         String selectedClass = classSpinner.getText().toString();
         String selectedDate = dateFormat.format(this.selectedDate.getTime());
 
         ApiService apiService = ApiClient.getClient(this).create(ApiService.class);
         String token = "Bearer " + new UserSession(this).getToken();
-        Call<ResponseBody> call = apiService.submitAttendance(token, selectedClass, selectedDate, attendanceMap);
+        Call<ResponseBody> call = apiService.submitAttendance(token, selectedClass, selectedDate, stringAttendanceMap);
 
         call.enqueue(new Callback<ResponseBody>() {
             @Override
