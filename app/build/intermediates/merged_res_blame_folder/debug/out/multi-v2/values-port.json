@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.attendwisepro.app-mergeDebugResources-43:/values-port/values-port.xml",
+            "outputFile": "com.attendwisepro.app-mergeDebugResources-2:/values-port/values-port.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\sam\\.gradle\\caches\\transforms-4\\60cd596aafa3b3e4afd0c6b6ffb24cd5\\transformed\\appcompat-1.6.1\\res\\values-port\\values-port.xml",
+                    "source": "C:\\gradle-8.7-all\\caches\\transforms-4\\60cd596aafa3b3e4afd0c6b6ffb24cd5\\transformed\\appcompat-1.6.1\\res\\values-port\\values-port.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

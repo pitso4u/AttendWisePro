@@ -2,21 +2,24 @@ package com.attendwisepro.config;
 
 import android.content.Context;
 import android.content.SharedPreferences;
+import android.net.ConnectivityManager;
+import android.net.Network;
+import android.net.NetworkCapabilities;
 import android.os.Build;
 import android.provider.Settings;
 import android.util.Log;
 import java.net.InetAddress;
 
 public class ApiConfig {
-    public static final String DEFAULT_HOST = "192.168.52.105";
+    public static final String DEFAULT_HOST = "192.168.83.105";
     public static final int DEFAULT_PORT = 3578;
     private static final String TAG = "ApiConfig";
     private static final String PREF_NAME = "ApiConfig";
     private static final String PREF_CUSTOM_HOST = "SERVER_IP";
 
     public static String getBaseUrl(Context context) {
-        String host = context.getSharedPreferences(PREF_NAME, Context.MODE_PRIVATE)
-                .getString(PREF_CUSTOM_HOST, DEFAULT_HOST);
+        SharedPreferences prefs = context.getSharedPreferences(PREF_NAME, Context.MODE_PRIVATE);
+        String host = prefs.getString(PREF_CUSTOM_HOST, DEFAULT_HOST);
         Log.d(TAG, "Using host: " + host);
         String baseUrl = String.format("http://%s:%d/api/", host, DEFAULT_PORT);
         Log.d(TAG, "Using base URL: " + baseUrl);
@@ -24,8 +27,26 @@ public class ApiConfig {
     }
 
     public static void validateServerConfig(Context context) {
-        String host = context.getSharedPreferences(PREF_NAME, Context.MODE_PRIVATE)
-                .getString(PREF_CUSTOM_HOST, DEFAULT_HOST);
+        SharedPreferences prefs = context.getSharedPreferences(PREF_NAME, Context.MODE_PRIVATE);
+        String host = prefs.getString(PREF_CUSTOM_HOST, DEFAULT_HOST);
+        
+        // Check network connectivity first
+        ConnectivityManager cm = (ConnectivityManager) context.getSystemService(Context.CONNECTIVITY_SERVICE);
+        Network activeNetwork = cm.getActiveNetwork();
+        if (activeNetwork != null) {
+            NetworkCapabilities capabilities = cm.getNetworkCapabilities(activeNetwork);
+            if (capabilities != null) {
+                boolean hasWifi = capabilities.hasTransport(NetworkCapabilities.TRANSPORT_WIFI);
+                Log.d(TAG, "Network validation - WiFi available: " + hasWifi);
+                
+                if (!hasWifi) {
+                    Log.w(TAG, "Network validation - Device not connected to WiFi, local network addresses may be unreachable");
+                    // If on cellular, try to use the cellular-accessible address if configured
+                    tryAlternateServer(context, host);
+                    return;
+                }
+            }
+        }
         
         try {
             InetAddress address = InetAddress.getByName(host);
@@ -45,6 +66,7 @@ public class ApiConfig {
 
     private static void tryAlternateServer(Context context, String currentHost) {
         String[] knownServers = {
+            "10.0.2.2",  // Android emulator special DNS name for host machine
             "192.168.52.105",
             "192.168.155.105",
             "192.168.1.105"

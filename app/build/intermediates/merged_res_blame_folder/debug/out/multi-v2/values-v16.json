@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.attendwisepro.app-mergeDebugResources-43:/values-v16/values-v16.xml",
+            "outputFile": "com.attendwisepro.app-mergeDebugResources-2:/values-v16/values-v16.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\sam\\.gradle\\caches\\transforms-4\\17a78fa759c00c65b7144d7898c3a958\\transformed\\core-1.12.0\\res\\values-v16\\values-v16.xml",
+                    "source": "C:\\gradle-8.7-all\\caches\\transforms-4\\17a78fa759c00c65b7144d7898c3a958\\transformed\\core-1.12.0\\res\\values-v16\\values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\sam\\.gradle\\caches\\transforms-4\\60cd596aafa3b3e4afd0c6b6ffb24cd5\\transformed\\appcompat-1.6.1\\res\\values-v16\\values-v16.xml",
+                    "source": "C:\\gradle-8.7-all\\caches\\transforms-4\\60cd596aafa3b3e4afd0c6b6ffb24cd5\\transformed\\appcompat-1.6.1\\res\\values-v16\\values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

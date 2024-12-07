@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.attendwisepro.app-mergeDebugResources-43:/values-w600dp-land-v13/values-w600dp-land-v13.xml",
+            "outputFile": "com.attendwisepro.app-mergeDebugResources-2:/values-w600dp-land-v13/values-w600dp-land-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\sam\\.gradle\\caches\\transforms-4\\c8b2366c6953e31ca11bf696c35acef0\\transformed\\material-1.9.0\\res\\values-w600dp-land-v13\\values-w600dp-land-v13.xml",
+                    "source": "C:\\gradle-8.7-all\\caches\\transforms-4\\c8b2366c6953e31ca11bf696c35acef0\\transformed\\material-1.9.0\\res\\values-w600dp-land-v13\\values-w600dp-land-v13.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

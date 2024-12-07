@@ -1,6 +1,9 @@
 package com.attendwisepro.network;
 
 import android.content.Context;
+import android.net.ConnectivityManager;
+import android.net.Network;
+import android.net.NetworkCapabilities;
 import android.net.wifi.WifiManager;
 import android.os.Handler;
 import android.os.Looper;
@@ -119,7 +122,32 @@ public class ServerDiscovery {
     }
 
     private String tryKnownServers() {
+        // First try the default configured server
+        String defaultServer = ApiConfig.DEFAULT_HOST;
+        try {
+            InetAddress address = InetAddress.getByName(defaultServer);
+            Log.d(TAG, "Trying configured server: " + defaultServer);
+            if (address.isReachable(3000)) {
+                Log.d(TAG, "Found reachable server at: " + defaultServer);
+                return defaultServer;
+            }
+        } catch (Exception e) {
+            Log.e(TAG, "Error checking configured server " + defaultServer + ": " + e.getMessage());
+        }
+
+        // Check network type
+        ConnectivityManager cm = (ConnectivityManager) context.getSystemService(Context.CONNECTIVITY_SERVICE);
+        Network activeNetwork = cm.getActiveNetwork();
+        if (activeNetwork != null) {
+            NetworkCapabilities capabilities = cm.getNetworkCapabilities(activeNetwork);
+            if (capabilities != null && !capabilities.hasTransport(NetworkCapabilities.TRANSPORT_WIFI)) {
+                Log.d(TAG, "Device is not on WiFi, skipping local network discovery");
+                return null;
+            }
+        }
+
         String[] knownServers = {
+            "192.168.83.105",
             "192.168.52.105",
             "192.168.155.105",
             "192.168.1.105"

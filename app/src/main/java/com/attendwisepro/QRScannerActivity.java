@@ -9,8 +9,10 @@ import android.view.View;
 import android.widget.Toast;
 
 import androidx.annotation.NonNull;
+import androidx.annotation.OptIn;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.camera.core.CameraSelector;
+import androidx.camera.core.ExperimentalGetImage;
 import androidx.camera.core.ImageAnalysis;
 import androidx.camera.core.Preview;
 import androidx.camera.lifecycle.ProcessCameraProvider;
@@ -51,6 +53,8 @@ public class QRScannerActivity extends AppCompatActivity {
     private ExecutorService cameraExecutor;
     private BarcodeScanner scanner;
 
+
+    @OptIn(markerClass = ExperimentalGetImage.class)
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -84,22 +88,9 @@ public class QRScannerActivity extends AppCompatActivity {
                 PERMISSION_REQUEST_CAMERA
         );
     }
-
-    @Override
-    public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions,
-                                         @NonNull int[] grantResults) {
-        super.onRequestPermissionsResult(requestCode, permissions, grantResults);
-        if (requestCode == PERMISSION_REQUEST_CAMERA) {
-            if (grantResults.length > 0 && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
-                startCamera();
-            } else {
-                Toast.makeText(this, "Camera permission is required", Toast.LENGTH_SHORT).show();
-                finish();
-            }
-        }
-    }
-
-    private void startCamera() {
+    @androidx.camera.core.ExperimentalGetImage
+    @OptIn(markerClass = ExperimentalGetImage.class)
+    private void  startCamera() {
         ListenableFuture<ProcessCameraProvider> cameraProviderFuture =
                 ProcessCameraProvider.getInstance(this);
 
@@ -145,6 +136,20 @@ public class QRScannerActivity extends AppCompatActivity {
                 Toast.makeText(this, "Failed to start camera", Toast.LENGTH_SHORT).show();
             }
         }, ContextCompat.getMainExecutor(this));
+    }
+    @OptIn(markerClass = ExperimentalGetImage.class)
+    @Override
+    public void  onRequestPermissionsResult(int requestCode, @NonNull String[] permissions,
+                                                                                            @NonNull int[] grantResults) {
+        super.onRequestPermissionsResult(requestCode, permissions, grantResults);
+        if (requestCode == PERMISSION_REQUEST_CAMERA) {
+            if (grantResults.length > 0 && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
+                startCamera();
+            } else {
+                Toast.makeText(this, "Camera permission is required", Toast.LENGTH_SHORT).show();
+                finish();
+            }
+        }
     }
 
     private void handleQRContent(String content) {

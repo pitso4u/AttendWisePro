@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.attendwisepro.app-mergeDebugResources-43:/values-sw360dp-v13/values-sw360dp-v13.xml",
+            "outputFile": "com.attendwisepro.app-mergeDebugResources-2:/values-sw360dp-v13/values-sw360dp-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\sam\\.gradle\\caches\\transforms-4\\5768acf8b7a65c7265ee29d5b858aadb\\transformed\\preference-1.2.0\\res\\values-sw360dp-v13\\values-sw360dp-v13.xml",
+                    "source": "C:\\gradle-8.7-all\\caches\\transforms-4\\5768acf8b7a65c7265ee29d5b858aadb\\transformed\\preference-1.2.0\\res\\values-sw360dp-v13\\values-sw360dp-v13.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
