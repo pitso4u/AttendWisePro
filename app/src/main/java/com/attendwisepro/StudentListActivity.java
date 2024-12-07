@@ -88,8 +88,8 @@ public class StudentListActivity extends AppCompatActivity implements StudentAda
         // TODO: Load students from backend API
         // For now, using dummy data
         List<Learner> dummyData = new ArrayList<>();
-        dummyData.add(new Learner("John", "Doe", "STU001", "Class 1-A", "Parent 1", "1234567890"));
-        dummyData.add(new Learner("Jane", "Smith", "STU002", "Class 1-A", "Parent 2", "0987654321"));
+        dummyData.add(new Learner(1, "John", "Doe", "john.doe@example.com", "1234567890", "Class 1-A", "Parent 1", "1234567890"));
+        dummyData.add(new Learner(2, "Jane", "Smith", "jane.smith@example.com", "0987654321", "Class 1-A", "Parent 2", "0987654321"));
         adapter.setStudents(dummyData);
         showLoading(false);
     }
@@ -107,7 +107,7 @@ public class StudentListActivity extends AppCompatActivity implements StudentAda
     @Override
     public void onEditClick(Learner student) {
         Intent intent = new Intent(this, AddLearnerActivity.class);
-        intent.putExtra("student_id", student.getStudentId());
+        intent.putExtra("student_id", student.getId());
         startActivity(intent);
     }
 

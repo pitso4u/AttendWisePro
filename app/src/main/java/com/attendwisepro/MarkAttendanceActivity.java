@@ -21,8 +21,10 @@ import com.google.android.material.textfield.TextInputEditText;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Calendar;
+import java.util.HashMap;
 import java.util.List;
 import java.util.Locale;
+import java.util.Map;
 
 import okhttp3.ResponseBody;
 import retrofit2.Call;
@@ -163,8 +165,8 @@ public class MarkAttendanceActivity extends AppCompatActivity {
 
     private void loadDummyData() {
         List<Learner> dummyLearners = new ArrayList<>();
-        dummyLearners.add(new Learner("John", "Doe", "STU001", "Class 1-A", "Parent 1", "1234567890"));
-        dummyLearners.add(new Learner("Jane", "Smith", "STU002", "Class 1-A", "Parent 2", "0987654321"));
+        dummyLearners.add(new Learner(1, "John", "Doe", "john.doe@example.com", "1234567890", "Class 1-A", "Parent 1", "1234567890"));
+        dummyLearners.add(new Learner(2, "Jane", "Smith", "jane.smith@example.com", "0987654321", "Class 1-A", "Parent 2", "0987654321"));
         attendanceAdapter.setLearners(dummyLearners);
     }
 
@@ -179,8 +181,14 @@ public class MarkAttendanceActivity extends AppCompatActivity {
         String date = apiDateFormat.format(calendar.getTime());
         String token = "Bearer " + new UserSession(this).getToken();
 
+        Map<Integer, Boolean> attendanceMap = attendanceAdapter.getAttendanceMap();
+        Map<String, Boolean> stringAttendanceMap = new HashMap<>();
+        for (Map.Entry<Integer, Boolean> entry : attendanceMap.entrySet()) {
+            stringAttendanceMap.put(entry.getKey().toString(), entry.getValue());
+        }
+
         ApiService apiService = ApiClient.getClient(this).create(ApiService.class);
-        Call<ResponseBody> call = apiService.submitAttendance(token, selectedClass, date, attendanceAdapter.getAttendanceMap());
+        Call<ResponseBody> call = apiService.submitAttendance(token, selectedClass, date, stringAttendanceMap);
 
         call.enqueue(new Callback<ResponseBody>() {
             @Override
